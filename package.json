@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "cypress": "^13.7.2"
+  }
+}
