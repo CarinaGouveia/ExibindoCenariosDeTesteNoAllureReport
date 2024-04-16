@@ -12,6 +12,7 @@ O Cypress é uma ferramenta de automação de teste de front-end que permite esc
 ### Passos
 
 1. **Importar cenários Gerkin**
+   
  Primeiro, você precisa criar um arquivo separado para armazenar os cenários Gerkin. Você pode definir os cenários usando HTML para formatação.
    
    Exemplo (`cenarios.js`):
@@ -30,6 +31,7 @@ O Cypress é uma ferramenta de automação de teste de front-end que permite esc
 ```
 
 2. **Adicionar descrição aos testes Cypress**
+   
  Em seus testes Cypress, você pode usar o método `cy.allure().descriptionHtml()` para associar um cenário Gerkin aos seus testes.
  Exemplo (`spec.js`):
 ```javascript
