@@ -55,5 +55,8 @@ Agora, você pode executar seus testes Cypress normalmente. Certifique-se de que
    
  Depois de executar os testes, você pode gerar o relatório do Allure Report usando o comando "allure generate allure-results" e visualizar os resultados no navegador com o comando "allure open".
 
- Conclusão
+ **Conclusão**
+ 
 Ao usar o cy.allure().descriptionHtml(), você pode associar cenários Gerkin aos seus testes Cypress e visualizar essas descrições formatadas no Allure Report. Isso torna os relatórios de teste mais compreensíveis e informativos para toda a equipe.
+
+Por Carina Gouveia ✨
