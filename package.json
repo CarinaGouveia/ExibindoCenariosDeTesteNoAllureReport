@@ -1,6 +1,17 @@
 {
   "devDependencies": {
-    "@shelex/cypress-allure-plugin": "^2.40.2",
-    "cypress": "^13.7.2"
-  }
+    "cypress": "^12.14.0"
+  },
+  "dependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2"
+  },
+  "name": "allurecenarios",
+  "description": "\"# ExibindoCenariosDeTesteNoAllureReport-EmBreve\"",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "allure generate allure-results"
+  },
+  "author": "",
+  "license": "ISC"
 }
