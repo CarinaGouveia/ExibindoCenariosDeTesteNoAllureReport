@@ -45,10 +45,12 @@ O Cypress é uma ferramenta de automação de teste de front-end que permite esc
   });
  });
 ```
-3. **Executar os testes Cypress** 
+3. **Executar os testes Cypress**
+
 Agora, você pode executar seus testes Cypress normalmente. Certifique-se de que os resultados dos testes sejam gerados em um diretório adequado para o Allure Report.
 
-4. **Visualizar os resultados no Allure Report**
+5. **Visualizar os resultados no Allure Report**
+   
  Depois de executar os testes, você pode gerar o relatório do Allure Report usando o comando "allure generate allure-results" e visualizar os resultados no navegador com o comando "allure open".
 
  Conclusão
